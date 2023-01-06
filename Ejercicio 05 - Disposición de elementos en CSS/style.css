@@ -1,0 +1,17 @@
+.galeria {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.img-galery {
+    width: 300px;
+
+}
+
+.img-galery:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
