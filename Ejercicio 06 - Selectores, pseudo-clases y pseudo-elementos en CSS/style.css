@@ -36,4 +36,5 @@ button:hover {
     color: white;
 }
 button:before { content: "Pasa por encima "; }
+button:hover::before { content: ""; }
 button:hover::after  { content: "¡Hecho!"; }
