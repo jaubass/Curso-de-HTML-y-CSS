@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,900&display=swap');
+
+* {
+    margin: 0px;
+
+}
+
+body {
+    margin-top: 40px;
+    background-color: #161717;
+
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.encabezado {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #161717;
+    gap: 35px;
+    width: 450px;
+    margin: auto;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.buttons {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+
+}
+
+.google-btn {
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3774e0;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.google-btn picture {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.google-btn picture img {
+    width: 60%;
+}
+
+.google-btn span {
+    font-weight: 500;
+    padding: 15px;
+}
+
+.google-btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.twitter-btn {
+    height: 40px;
+    background-color: #bbb;
+    border: none;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+
+.twitter-btn:hover {
+    background-color: #ddd;
+}
+
+.twitter-btn picture img {
+    width: 70%;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 2px solid #ccc;
+    opacity: 0.3;
+}
+
+.separator span {
+    color: #ccc;
+}
+
+.section-inputs {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.section-inputs label input {
+    width: 80%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+label input {
+    width: 90%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    transition: background-color 0.3s, border 0.3s, box-shadow 0.3s;
+}
+
+label span {
+    font-weight: 700;
+}
+
+label input:hover {
+    background-color: #454045;
+    border: solid 1px #454045;
+    box-shadow: 0 0 4px #d75988;
+}
+
+label input:focus {
+    background-color: #454045;
+    border: solid 1px #454045;
+    box-shadow: 0 0 4px #d75988;
+}
+
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 20px;
+}
+
+.checkbox-label span {
+    font-weight: 200;
+}
+
+.submit-btn {
+    background-color: #d75988;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+}
+
+.copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 18px;
+}
+
+.copy a {
+    font-weight: 400;
+    color: #ccc;
+}
