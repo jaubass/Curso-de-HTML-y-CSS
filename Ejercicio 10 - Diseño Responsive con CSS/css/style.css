@@ -30,7 +30,7 @@ h2 {
     color: #CF4D6F;
 }
 
-.seccion-principal {
+.flex-container {
     display: flex;
     justify-content: center;
     background-color: var(--color-principal);
@@ -73,4 +73,16 @@ h2 {
         align-items: center;
         grid-area: lateral;
     }
+}
+
+.pie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Poppins';
+    font-weight: 100;
 }
