@@ -11,8 +11,14 @@ h1, h5, p {
     text-align: center;
 }
 
-h5 {
+.bootstrap {
+    color:#80198C;
+}
+
+.byh5 {
+    font-size: 16px;
     font-weight: 100;
+    color: #DB2550;
 }
 
 .hittle {
