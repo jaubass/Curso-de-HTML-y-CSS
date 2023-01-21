@@ -1,0 +1,44 @@
+.row div {
+    margin: 12px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+h1, h5, p {
+    text-align: center;
+}
+
+h5 {
+    font-weight: 100;
+}
+
+.hittle {
+    padding: 30px;
+}
+
+.col {
+    background-color: #BFB800;
+}
+
+.col-sm {
+    background-color: #DB8D00;
+}
+
+.col-md {
+    background-color: #E55D2C;
+}
+
+.col-lg {
+    background-color: #DB2550;
+}
+
+.col-xl {
+    background-color: #BA0072;
+}
+
+.col-xxl {
+    background-color: #80198C;
+}
