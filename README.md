@@ -1,2 +1,7 @@
 # Curso-de-HTML-y-CSS
-Curso de HTML y CSS - Open Bootcamp
+
+## Open Bootcamp
+
+Resolucion de los ejercicios del curso de HTML y CSS de Open Bootcamp.
+
+by Jaubass
