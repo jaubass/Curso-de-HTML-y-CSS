@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Elementos de Interés en Bootstrap</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/elementos.css">
+    </head>
+    <body>
+        <div class="container"> 
+            <div class="pb-3 mb-4 py-5 border-bottom">
+                <h1 class="fs-4">Elementos de Bootstrap</h1>
+            </div>
+            <div class="bg-light p-5 mb-4 rounded-3">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold">Custom Jumbotron</h1>
+                    <p class="col-md-8 fs-4">
+                    Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal"> Click me!</button>
+                    <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">How it works</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Before getting started with Bootstrap’s modal component, be sure to read the following as our menu options have recently changed.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">This not save anything</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="pb-3 mb-4 py-5 border-bottom">
+                <h1 class="fs-4">Formularios</h1>
+            </div> 
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                    <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="nameText">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con nadie más.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="phone-number" class="form-label">Teléfono</label>
+                    <input type="password" class="form-control" id="phone-number">
+                </div>
+                <div class="mb-3">
+                    <label for="phone-number" class="form-label">Comentario</label>
+                    <textarea class="form-control" placeholder="Deja un comentario aquí" id="floatingTextarea"></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Aviso Legal</label>
+                </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            <div class="container py-5">
+                <div class="card" style="width: 18rem;">
+                        <img src="../../images/Jau-01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jaume Fite</h5>
+                        <p class="card-text">Desarrollador web FullStack.</p>
+                    </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Java</li>
+                            <li class="list-group-item">HTML&CSS</li>
+                            <li class="list-group-item">Javascript</li>
+                        </ul>
+                    <div class="card-body">
+                        <a href="https://bububass.com/portafolio/" class="card-link">View Portfolio</a>
+                        <a href="https://www.linkedin.com/in/jaume-fite/" class="card-link">Mi Linkedin</a>
+                    </div>
+                </div>               
+            </div>        
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>   
+</html>
