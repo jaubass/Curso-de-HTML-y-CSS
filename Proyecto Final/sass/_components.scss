@@ -1,0 +1,44 @@
+$color-light-orange: #F4A261;
+$color-orange: #E76F51;
+$color-yellow: #E9C46A;
+$color-light-green: #2A9D8F;
+$color-green: #264653;
+$color-purple: #613F75;
+$bg-color: #F7F7FF;
+$fnt-color: #0A100D;
+
+.btn-main {
+    background-color: $color-orange;
+    color: white;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    border: none;
+
+    &:hover {
+        background-color: $color-light-orange;
+    }
+
+    &-s {
+        @extend .btn-main;
+        font-size: 0.75rem;
+        padding: 0.1rem 1rem;
+    }
+
+}
+
+.btn-sec {
+    @extend .btn-main;
+    color: $color-purple;
+    background-color: #F7F7FF;
+    border: none;
+
+    &:hover {
+        background-color: $color-yellow;
+    }
+
+    &-s {
+        @extend .btn-sec;
+        font-size: 0.75rem;
+        padding: 0.1rem 1rem;
+    }
+}
